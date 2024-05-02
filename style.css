@@ -56,8 +56,11 @@ body{
     position: fixed;
     color: rgba(255, 255, 255, 0.99);
     text-align: center;
-
+    background-color: rgba(0, 0, 0, 0.445);
+    border-radius: 15px;
+    width: 40vw;
+    height: 25vh;
+    display: none;
 }
-
 
 
