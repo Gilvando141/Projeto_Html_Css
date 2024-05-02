@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+body{
+
+    background-image: linear-gradient(to top, #F2D750, #F2A516);
+    background-attachment: fixed;
+}
+
+.logo{
+    width: 120px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 5px solid #FF5001;
+}
+.cabecalho_logo{
+    margin-top: 20px;
+    text-align: center;
+}
+.section{
+    margin-top: 7%;
+    margin-left: 7%;
+    border-radius: 15px;
+    width: 40vw;
+    height: 15vh;
+
+}
+.one_section img{
+    
+    object-fit: cover;
+    background-image: fixed;
+    border-radius: 15px;
+    transition: all 0.5 ease-in-out;
+
+}
+.section .one_section img:hover{
+    filter: blur(1px);
+    transform: scale(1.2);
+}
+.contender_Gourmet{
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    height: 15vh;
+    position: absolute;
+    
+}
+.contender_Gourmet .HotDog_gourmet{
+    position: absolute;
+    width: 40vw;
+}
+.one_section .name_gourmet{
+    position: fixed;
+    color: rgba(255, 255, 255, 0.99);
+    text-align: center;
+
+}
+
+
+
