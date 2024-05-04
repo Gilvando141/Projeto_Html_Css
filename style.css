@@ -34,11 +34,12 @@ body{
     flex-wrap: wrap;
 
 }
-.one_section img:hover{
+
+.one_section > img:hover{
     
     filter: blur(0.8px);
     transform: scale(1.1);
-
+    cursor: pointer;
 }
 .one_section{
 
@@ -49,12 +50,13 @@ body{
     align-items: flex-end;
     flex: 1 1 200px;
 }
-.HotDog_gourmet{
-
+img{
+    height: 150px;
+    background: no-repeat center;
+    background-size: cover;
     border-radius: 15px;
     position: absolute;
     width: 300px;
-
 }
 
 .name_gourmet{
@@ -65,7 +67,17 @@ body{
     border-radius: 15px;
     padding: 5px;
 }
-
-
+.corpo{
+    display: flex;
+}
+.cardapio{
+    border: 2px solid black;
+    flex: 1 0 30%;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+.son_cardapio{
+    text-align: center;
+}
 
 
