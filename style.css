@@ -14,7 +14,7 @@ body{
     height: 110px;
     object-fit: cover;
     border-radius: 20px;
-    border: 5px solid #FF5001;
+    border: 3px solid #FF5001;
 }
 .cabecalho_logo{
     margin-top: 20px;
@@ -26,6 +26,7 @@ body{
     border-radius: 15px;
     width: 40vw;
     height: 15vh;
+    display: flex;
 
 }
 .one_section img{
@@ -37,30 +38,31 @@ body{
 
 }
 .section .one_section img:hover{
-    filter: blur(1px);
-    transform: scale(1.2);
+    filter: blur(0.8px);
+    transform: scale(1.1);
 }
-.contender_Gourmet{
-    display: flex;
-    justify-content: center;
-    width: 40vw;
-    height: 15vh;
-    position: absolute;
-    
-}
-.contender_Gourmet .HotDog_gourmet{
+.one_section .HotDog_gourmet{
     position: absolute;
     width: 40vw;
+    min-width: 40vw;
 }
-.one_section .name_gourmet{
+/*.one_section .name_gourmet{
     position: fixed;
     color: rgba(255, 255, 255, 0.99);
     text-align: center;
     background-color: rgba(0, 0, 0, 0.445);
     border-radius: 15px;
     width: 40vw;
-    height: 25vh;
-    display: none;
+    height: 23vh;
 }
+*/
+.name_gourmet{
+    color: white;
+    position: relative;
+    margin-top: 70px;
+    margin-left: 90px;
+
+}
+
 
 
