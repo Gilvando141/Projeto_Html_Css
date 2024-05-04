@@ -9,6 +9,8 @@ body{
     background-attachment: fixed;
 }
 
+/*Cabeça*/
+
 .logo{
     width: 120px;
     height: 110px;
@@ -17,52 +19,53 @@ body{
     border: 3px solid #FF5001;
 }
 .cabecalho_logo{
+    height: 150px;
     margin-top: 20px;
     text-align: center;
 }
-.section{
-    margin-top: 7%;
-    margin-left: 7%;
-    border-radius: 15px;
-    width: 40vw;
-    height: 15vh;
+
+/*Corpo*/
+
+.section {
+    height: 70vh;
+    width: 70%;
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 
 }
-.one_section img{
-    border-radius: 15px;
-}
-.section .one_section img:hover{
+.one_section img:hover{
+    
     filter: blur(0.8px);
     transform: scale(1.1);
+
 }
-.one_section .HotDog_gourmet{
-    position: absolute;
-    width: 40vw;
-    min-width: 40vw;
+.one_section{
+
+    width: 600px;
+    display: flex;
+    height: 153px;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex: 1 1 200px;
 }
-/*.one_section .name_gourmet{
-    position: fixed;
-    color: rgba(255, 255, 255, 0.99);
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.445);
+.HotDog_gourmet{
+
     border-radius: 15px;
-    width: 40vw;
-    height: 23vh;
+    position: absolute;
+    width: 300px;
+
 }
-*/
+
 .name_gourmet{
     color: white;
     position: relative;
-    margin-top: 70px;
-    margin-left: 90px;
     background-color: rgba(0, 0, 0, 0.512);
-
+    width: 300px;
+    border-radius: 15px;
+    padding: 5px;
 }
-#div1:hover ~ #div2 {
-    transform: scale(1.1);
 
-}
 
 
 
