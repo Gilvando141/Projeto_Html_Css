@@ -30,12 +30,7 @@ body{
 
 }
 .one_section img{
-    
-    object-fit: cover;
-    background-image: fixed;
     border-radius: 15px;
-    transition: all 0.5 ease-in-out;
-
 }
 .section .one_section img:hover{
     filter: blur(0.8px);
@@ -61,6 +56,11 @@ body{
     position: relative;
     margin-top: 70px;
     margin-left: 90px;
+    background-color: rgba(0, 0, 0, 0.512);
+
+}
+#div1:hover ~ #div2 {
+    transform: scale(1.1);
 
 }
 
