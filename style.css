@@ -67,7 +67,8 @@ img{
     border-radius: 15px;
     padding: 5px;
 }
-.corpo{
+
+main{
     display: flex;
 }
 .cardapio{
@@ -78,6 +79,10 @@ img{
 }
 .son_cardapio{
     text-align: center;
+    height: 70vh;
+    width: 30vw;
+    background: no-repeat center;
+    background-size: cover;
 }
 
 
