@@ -4,9 +4,7 @@
     box-sizing:border-box;
 }
 body{
-
     background-image: linear-gradient(to top, #F2D750, #F2A516);
-    background-attachment: fixed;
 }
 
 /*Cabeça*/
@@ -19,10 +17,29 @@ body{
     border: 3px solid #FF5001;
 }
 .cabecalho_logo{
-    height: 130px;
+    height: 120px;
     margin-top: 5px;
     text-align: center;
 }
+/*Links*/
+nav li{
+    display: inline-block;
+    background-color: #ff5101a0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+nav li a{
+
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+nav li:hover{
+    background-color: #FF5001;
+}
+
 
 /*Corpo*/
 
@@ -43,7 +60,13 @@ body{
 }
 .HotDog_gourmet{
     border-radius: 10px;
+    height: 150px;
+    background: no-repeat center;
+    background-size: cover;
+    position: absolute;
+    width: 300px;
 }
+
 .one_section{
 
     width: 600px;
@@ -53,13 +76,7 @@ body{
     align-items: flex-end;
     flex: 1 1 200px;
 }
-img{
-    height: 150px;
-    background: no-repeat center;
-    background-size: cover;
-    position: absolute;
-    width: 300px;
-}
+  
 
 .name_gourmet{
     color: white;
@@ -79,22 +96,42 @@ main{
 }
 .son_cardapio{
     text-align: center;
-    height: 70vh;
+    height: 470px;
     width: 30vw;
 }
-.rodape{
-    margin-top: 8px;
-    height: 60px;
+
+/*rodape*/
+footer{
+    bottom: 0;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 5px;
+    background-color: #ff5101e2;
     width: 100%;
-    background-color: #ff5101b5;
-}
-.rodape>div{
     display: flex;
-    width: 100px;
+    justify-content: space-between;
 }
 .rede_social{
-    width: 40px;
-    height: 30px;
-    
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.rede_social >img{
+    margin-top: 5px;
+    width: 60px;
+    height: 50px;
+    padding: 10px;
+
 }
 
+.rede_social>img:hover{
+    cursor: pointer;
+    background-color: white;
+    border-radius: 40%;
+    padding: 5px;
+}
+.info{
+    padding: 5px;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 15px;
+}
