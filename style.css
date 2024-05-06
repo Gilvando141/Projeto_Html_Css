@@ -22,15 +22,20 @@ body{
     text-align: center;
 }
 /*Links*/
+.Links{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+}
 nav li{
     display: inline-block;
     background-color: #ff5101a0;
     border-radius: 10px;
     margin-bottom: 10px;
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 nav li a{
-
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -51,11 +56,9 @@ nav li:hover{
     flex-wrap: wrap;
     margin-bottom: 5px;
 }
-
 .one_section > img:hover{
-    
-    filter: blur(0.8px);
     transform: scale(1.1);
+    filter: blur(0.8px);
     cursor: pointer;
 }
 .HotDog_gourmet{
