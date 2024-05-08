@@ -9,19 +9,22 @@ body{
 
 /*Cabeça*/
 
-.logo{
-    width: 120px;
-    height: 110px;
-    object-fit: cover;
-    border-radius: 20px;
-    border: 3px solid #FF5001;
-}
 .cabecalho_logo{
     height: 120px;
     margin-top: 5px;
     text-align: center;
 }
-/*Links*/
+.logo{
+    width: 120px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 3px solid #ff1a01;
+}
+
+
+/*Menu*/
+
 .Links{
     display: flex;
     justify-content: flex-end;
@@ -29,7 +32,7 @@ body{
 }
 nav li{
     display: inline-block;
-    background-color: #ff5101a0;
+    background-color: #ff51016e;
     border-radius: 10px;
     margin-bottom: 10px;
     margin-left: 5px;
@@ -47,15 +50,26 @@ nav li:hover{
 
 
 /*Corpo*/
-
+main{
+    display: flex;
+}
 .section {
-    height: 70vh;
+    height: 70%;
     width: 70%;
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
     margin-bottom: 5px;
 }
+/*Cada seleção*/
+.one_section{
+
+    width: 600px;
+    display: flex;
+    height: 153px;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex: 1 1 200px;
+} 
 .one_section > img:hover{
     transform: scale(1.1);
     filter: blur(0.8px);
@@ -69,18 +83,7 @@ nav li:hover{
     position: absolute;
     width: 300px;
 }
-
-.one_section{
-
-    width: 600px;
-    display: flex;
-    height: 153px;
-    justify-content: space-around;
-    align-items: flex-end;
-    flex: 1 1 200px;
-}
-  
-
+ 
 .name_gourmet{
     color: white;
     position: relative;
@@ -90,9 +93,8 @@ nav li:hover{
     padding: 5px;
 }
 
-main{
-    display: flex;
-}
+/*Cardapio*/
+
 .cardapio{
     flex: 1 0 35%;
     margin-left: 30px;
@@ -105,7 +107,6 @@ main{
 
 /*rodape*/
 footer{
-    bottom: 0;
     border-radius: 10px 10px 0px 0px;
     margin-top: 5px;
     background-color: #ff5101e2;
@@ -128,7 +129,7 @@ footer{
 
 .rede_social>img:hover{
     cursor: pointer;
-    background-color: white;
+    background-color: #ff1a01;
     border-radius: 40%;
     padding: 5px;
 }
